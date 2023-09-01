@@ -1,0 +1,205 @@
+body {
+    background-color:#8df4ff
+    background-position: center;
+    width: 1150px;
+    margin: 0 auto;
+
+}
+
+
+#foto1{
+    float: left;
+}
+
+#titulo {
+
+    max-width: 100%;
+    /* Ajusta el ancho según tus necesidades */
+    height: 140px;
+    /* Ajusta el alto según tus necesidades */
+    background-image: linear-gradient(to right,#025159  20%, #025159 10%);
+    border: 2px solid #ffffff00;
+    border-radius: 0px;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 10px;
+    align: center;
+}
+
+
+img {
+    width: 100px;
+}
+
+#subtitulo {
+    width: 1150px;
+    height: 150px;
+    background: rgb(218, 250, 247);
+    float: left;
+    border-radius: 10px;
+}
+
+#imagen3{
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+#sec1 {
+width: 1130px;
+
+
+    border: 2px solid #050404;
+    border-radius: 20px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+section {
+    align-content: left;
+    width: 500px;
+    border: 2px solid #050404;
+    border-radius: 20px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+    background-color: rgb(255, 255, 255)
+}
+
+table {
+    width: 900px;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#autor {
+    background-color: aliceblue;
+    width: 1080px;
+    border: solid gray;
+
+}
+
+#tecnologia {
+    width: 100px;
+
+}
+
+#animacion {
+    padding: 0;
+    margin: 00px;
+    height: 964px;
+    width: 300px;
+    /* Ancho deseado del contenedor */
+    height: 200px;
+    /* Altura deseada del contenedor */
+    overflow: hidden;
+    width: 100%;
+    /* La imagen ocupará el 100% del ancho del contenedor */
+    height: auto;
+    /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+#animacion img {
+    position: absolute;
+    top: 0;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+#animacion img.novisible {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#animacion:hover img.novisible {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+#animacion:hover img.visible {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#animacion img.visible:hover {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.novisible {
+    width: 1000px;
+}
+
+
+
+article {
+    width: 90px;
+    align-content: center;
+    right: 30px;
+
+}
+
+#es1 {
+    background-color: rgb(230, 230, 230);
+    font-family: calibri;
+    text-align: center;
+}
+
+#es2 {
+    background-color: rgb(230, 230, 230);
+    font-family: calibri;
+    text-align: center;
+}
+
+#es3 {
+    background-color: rgb(230, 230, 230);
+    font-family: calibri;
+    text-align: center;
+}
+
+
+  
+.image-container {
+    position: relative;
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out; /* Define la transición */
+  }
+  
+  .image-container img:nth-child(2) {
+    opacity: 0; /* Inicialmente, la segunda imagen está invisible */
+  }
+  
+  .image-container:hover img:nth-child(1) {
+    opacity: 0; /* Al pasar el ratón, la primera imagen se vuelve invisible */
+  }
+  
+  .image-container:hover img:nth-child(2) {
+    opacity: 1; /* Al pasar el ratón, la segunda imagen se vuelve visible */
+}
+
+
+
+  form {
+    text-align: center;
+  }
+  
